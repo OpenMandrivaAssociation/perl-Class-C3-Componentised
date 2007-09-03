@@ -12,6 +12,7 @@ Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}
 Source:     http://www.cpan.org/modules/by-module/Class/%{module}-%{version}.tar.gz
 BuildRequires:  perl(Class::C3)
+BuildRequires:  perl(Class::Inspector)
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
