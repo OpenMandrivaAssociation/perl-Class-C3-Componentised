@@ -15,6 +15,7 @@ BuildRequires:  perl(Class::C3)
 BuildRequires:  perl(Class::Inspector)
 BuildRequires:  perl(Test::Exception)
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This will inject base classes to your module using the Class::C3 method
