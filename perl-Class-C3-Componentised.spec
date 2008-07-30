@@ -1,7 +1,7 @@
 %define module	Class-C3-Componentised
 %define name	perl-%{module}
 %define version 1.0003
-%define release %mkrel 1
+%define release %mkrel 3
 
 Name:		%{name}
 Version:	%{version}
