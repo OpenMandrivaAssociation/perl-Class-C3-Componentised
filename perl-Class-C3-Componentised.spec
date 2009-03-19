@@ -14,6 +14,7 @@ Source:     http://www.cpan.org/modules/by-module/Class/%{module}-%{version}.tar
 BuildRequires:  perl(Class::C3)
 BuildRequires:  perl(Class::Inspector)
 BuildRequires:  perl(Test::Exception)
+BuildRequires:  perl(MRO::Compat)
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
