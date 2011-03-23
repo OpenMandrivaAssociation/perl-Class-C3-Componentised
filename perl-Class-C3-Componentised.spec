@@ -1,5 +1,5 @@
 %define upstream_name	 Class-C3-Componentised
-%define upstream_version 1.0008
+%define upstream_version 1.0009
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
