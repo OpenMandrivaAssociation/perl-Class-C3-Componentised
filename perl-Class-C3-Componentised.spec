@@ -1,16 +1,16 @@
 %define upstream_name	 Class-C3-Componentised
-%define upstream_version 1.0009
+%define upstream_version 1.001000
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 Epoch:		1
 
 Summary:	Load mix-ins or components to your C3-based class
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Class/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Class/Class-C3-Componentised-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Class::C3)
@@ -90,3 +90,4 @@ make test
 
 * Mon Sep 03 2007 Guillaume Rousse <guillomovitch@mandriva.org> 1.0001-1mdv2008.0
 - first mdv release
+
