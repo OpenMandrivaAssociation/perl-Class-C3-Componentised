@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 Epoch:		1
 
 Summary:	Load mix-ins or components to your C3-based class
