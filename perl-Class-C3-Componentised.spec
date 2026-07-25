@@ -1,16 +1,16 @@
 %define upstream_name	 Class-C3-Componentised
-%define upstream_version 1.001000
+%define upstream_version 1.001002
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 Epoch:		1
 
 Summary:	Load mix-ins or components to your C3-based class
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Class/Class-C3-Componentised-%{upstream_version}.tar.gz
+Url:		https://github.com/p5sagit/Class-C3-Componentised
+Source0:	https://cpan.metacpan.org/authors/id/H/HA/HAARG/Class-C3-Componentised-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
